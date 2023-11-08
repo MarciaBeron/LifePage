@@ -94,11 +94,17 @@ p{
     font-family: 'Varela Round', sans-serif;
 }
 h3{
-    font-family: 'Lobster', cursive;
+    font-family: 'Varela Round', sans-serif;
     font-size: xx-large;
 }
 li{
     font-family: 'Varela Round', sans-serif;
+}
+form{
+    display: contents;
+}
+label{
+    align-self: flex-start;
 }
 /* .night{
     position: fixed;
@@ -109,6 +115,9 @@ li{
     position: fixed;
     opacity: 0.3;
 }*/
+#message{
+    height: 100px;
+}
 .presentation{
     display: flex;
     justify-content: center;
@@ -159,7 +168,11 @@ li{
     display: flex;
     flex-direction: row;
 }
-
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media only screen and (min-width: 1020px ) {
     .presentation-night h1{
         font-size: 4em;
